@@ -7270,3 +7270,11 @@ a.magnific-popup:hover .overlay {
 .product-detail .button {
   margin: 0;
 }
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar-brand h1 {
+  font-size: 20px;
+}
