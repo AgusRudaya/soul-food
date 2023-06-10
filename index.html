@@ -647,14 +647,14 @@
               <div class="col-md-5 mr-5 mb-3">
                 <div class="widget-newsletter mb-5">
                   <h4 class="widget-title">Subscribe To Our Newletter</h4>
-                  <div class="newsletter-button d-flex">
+                  <form name="submit-to-google-sheet" class="newsletter-button d-flex">
                     <input
                       type="text"
-                      name="Subscribe"
+                      name="email"
                       placeholder="Your Email Address"
                     />
-                    <button class="btn-hvr-effects">Subscribe</button>
-                  </div>
+                    <button type="submit" class="btn-hvr-effects">Subscribe</button>
+                  </form>
                 </div>
                 <!--widget-newsletter-->
 
@@ -720,6 +720,7 @@
       src="js/jquery.magnific-popup.min.js"
     ></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/submitEmail.js"></script>
   </body>
 
   <!-- Mirrored from demo.templatesjungle.com/bakery/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Apr 2023 13:52:43 GMT -->
